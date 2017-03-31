@@ -1,0 +1,94 @@
+CSCB58 Project Proposal: Winter 2016
+
+Team Member A
+-------------
+First Name: Gobin
+Last Name: Giritharan
+Student Number: 1001590165
+UofT E-mail Address: gobin.giritharan@mail.utoronto.ca
+
+
+Team Member B
+-------------
+First Name: Varun
+Last Name: Sharma
+Student Number: 1001429769
+UofT E-mail Address: vvarun.sharma@mail.utoronto.ca
+
+Team Member C (Optional)
+-------------
+First Name: Vinoshan
+Last Name: Tharmalenkam
+Student Number: 1001549023
+UofT E-mail Address: vinoshan.tharmalenkam@mail.utoronto.ca
+
+Team Member D (Optional)
+-------------
+First Name: Vithusan
+Last Name: Thavarajah
+Student Number: 1001564149
+UofT E-mail Address: vithusan.thavarajah@mail.utoronto.ca
+
+
+Proposal
+--------
+
+Project Title: Project Elevate
+
+Provide a 1 paragraph description of your project:
+
+Our goal for this project is to simulate and build a small-scale elevator using an FPGA
+and LEGO blocks. The up and down movement of the elevator will be acheived using a combination
+of a motor and pulley contraption. More importantly, the motor control will be handled using an
+FPGA. We plan to utilise the on-board 8SEGMENT displays to provide floor level information. We
+also plan to use the on-board switches to provide input to the elevator (e.g. which floor to go to).
+
+
+What do you plan to have completed by the end of the first lab session?:
+- 3-4 Floor Elevator Structure using LEGOs
+- Implement a timer, using a counter in Verilog
+- Implement 8 Segment Displays for the 5 second timer, and current floor information.
+- Start work on FSM logic for Elevator
+
+What do you plan to have completed by the end of the second lab session?:
+- We'd like to have most of the project complete by the end of this lab session
+- We plan to have the FSM logic of the Elevator completed
+- Pulley Structure out of Legos that will attach to the motor completed
+- Have motor control via Verilog/DE2 fully fully figured out
+
+What do you plan to have completed by the end of the third lab session?:
+- We'd like have this lab for bug fixing and minor issues
+- Implement additional features such as Elevator Speed Control and a smarter
+  floor counter that will give the live status of the elevator position
+
+What is your backup plan if things don’t work out as planned?
+- Simplify the functionality of our elevator, for example instead of stopping at
+  each floor the elevator can simply go all the way and all the way down.
+
+What hardware will you need beyond the DE2 board (be sure to e-mail Brian if it’s anything beyond the basics to make sure there’s enough to go around):
+- We will need a motor to move the elevator up and down
+- LEGO pieces to construct our elevator structure and pulley structure
+- Sensors, if we'd like to implement additional elevator features.
+
+Motivations
+-----------
+How does this project relate to the material covered in CSCB58?:
+- Sequential Circuits Design: We will create an FSM to simulate the behaviour of an elevator
+  using the concepts in learned in class (e.g. State Diagrams/State Tables/FlipFlop Configuration)
+    - Flip Flops, Registers, Latches
+- RAM/Memory to store the floors the elevator must visit
+
+Why is this project interesting/cool (for CSCB58 students, and for non CSCB58 students?):
+- This project is relatively simple but brings together many of the complex concepts we've learned
+  in this class, such as Sequential Circuit Design. It shows that an elevator as simple as it is, requires
+  careful planning in its design. We also find the project cool because it allows us to build an actual
+  elevator structure and pulley system using LEGO, and it lets us interface with motors. Us Computer Science
+  students can be Engineers too!
+
+Why did you personally choose this project?:
+- We like that we can take the concepts learned in this course and apply it to a real-world application; an Elevator!
+- We also feel that through practical use, tough concepts become much easier to understand.
+- We like LEGOs! As fun as they are, they are quite useful in building small scale models.
+- Motors are cool! The oppurtunity to work with motors is always an awesome oppurtunity.
+
+
