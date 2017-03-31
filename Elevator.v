@@ -17,7 +17,7 @@ module Elevator(CLOCK_50, SW, HEX0, LEDR, GPIO);
 	// Hex for the user to see the state of the counter
 	hex_decoder hexd0(.hex_digit(count[3:0]), .segments(HEX0));
 	
-	// Check the 
+	// Check the counter, to see when to stop the motor
 	always @ (posedge CLOCK_50)
 	begin
 		if (count == 4'b0011)
